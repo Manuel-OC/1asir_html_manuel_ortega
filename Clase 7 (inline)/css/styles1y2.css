@@ -1,0 +1,31 @@
+.divjuntos{
+	display:inline-block;
+}
+
+#rojo{
+	background-color:red;
+	height:10%;
+	width:30%;
+	color:white;
+}
+
+#amarillo{
+	background-color:yellow;
+	height:10%;
+	width:30%;
+}
+
+#morado{
+	background-color:purple;
+	height:10%;
+	width:30%;
+	color:white;
+}
+
+.divjuntossinblock{
+	display:inline;
+}
+
+.enlacesseparados{
+	display:block;
+}

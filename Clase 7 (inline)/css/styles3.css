@@ -1,0 +1,39 @@
+#rojo{
+	background-color:red;
+	float:left;
+	width:10%;
+	color:white;
+}
+
+#amarillo{
+	background-color:yellow;
+	float:left;
+	width:10%;
+}
+
+#morado{
+	background-color:purple;
+	float:left;
+	width:10%;
+	color:white;
+}
+
+#rojo2{
+	background-color:red;
+	float:right;
+	width:10%;
+	color:white;
+}
+
+#amarillo2{
+	background-color:yellow;
+	float:right;
+	width:10%;
+}
+
+#morado2{
+	background-color:purple;
+	float:right;
+	width:10%;
+	color:white;
+}

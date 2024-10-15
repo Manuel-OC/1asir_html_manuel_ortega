@@ -1,0 +1,38 @@
+p#parrafo1{
+	background-color: pink;
+	border: solid 5px #008000;
+	padding: 5px;
+	margin: 55px;
+}
+
+p#parrafo2{
+	background-color: pink;
+	border: solid 5px #008000;
+	padding: 40px;
+	margin: 30px;
+}
+
+div#interior1{
+	background-color: yellow;
+	padding: 40px;
+	border: solid 20px #FF0000;
+	margin: 40px;
+	width: 200px;
+}
+
+div#interior2{
+	background-color: yellow;
+	padding: 20px;
+	border: solid 5px #FF0000;
+	margin: 20px;
+	width: 300px;
+}
+
+
+div.exterior{
+	background-color: blue;
+	border: solid 5px #FF0000;
+	margin: 10px;
+	height: 400px;
+	width: 400px;
+}

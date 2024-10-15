@@ -1,0 +1,149 @@
+*{
+	padding:1px;
+	margin:0;
+}
+
+body{
+	background-image: url(../imagenes/fondo.gif);
+	background-repeat: repeat;
+}
+
+#buscador{
+	float:right;
+}
+
+/*CSS DEL HEADER*/
+header{
+	max-width: 98%;
+	min-width: 98%;
+	max-height:20%;
+	min-height:20%;
+	position:absolute;
+	background-image: url(../imagenes/cabecera.jpg);
+	background-size: contain;
+	top:0;
+}
+header h1{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#buscador{
+	position:absolute;
+	display:inline;
+	top:0px;
+	right:0px;
+	margin:10px;
+}
+
+header nav ul{
+	background-color: lightblue;
+	margin-top:90px;
+	max-height: 50px;
+	min-height: 50px;
+	max-width: 50%;
+	border-radius: 10px;
+}
+
+header nav ul li{
+	position:relative;
+	top:25px;
+	left:5px;
+	display:inline;
+	background-color: lightblue;
+}
+
+header nav ul li a{
+	color:blue;
+	font-size: large;
+	margin:15px;
+}
+
+header nav ul li a:hover{
+	color:orange;
+	background-color: white;
+	font-size: large;
+	margin:15px;
+}
+
+/*CSS DEL MAIN*/
+
+/*CSS DEL ASIDE IZQUIERDO*/
+main aside{
+	max-width: 17%;
+	min-width: 17%;
+	max-height:80%;
+	min-height:80%;
+	position:absolute;
+	top:20%;
+	left:.25%;
+	margin-left:0.5%;
+	color:blue;
+	overflow:scroll;
+}
+
+main aside article{
+	background-image: url(../imagenes/fondo_columna.gif);
+	background-repeat: repeat;
+	margin-top:5px;
+	margin-bottom:5px;
+	border:1px;
+	border-color:blue;
+	border-style:solid;
+}
+
+main aside article p{
+	background-color: royalblue;
+}
+
+main aside article ul img{
+	float:left;
+}
+
+main aside article ul li a{
+
+}
+/*FIN DEL CSS DEL ASIDE IZQUIERDO*/
+
+/*CSS DEL SECTION CENTRAL*/
+main section{
+	max-width:75%;
+	min-width:75%;
+	min-height:70%;
+	max-height:70%;
+	position:absolute;
+	margin-top:5px;
+	top:20%;
+	left:19%;
+	margin-left:5px;
+}
+
+main section article{
+	background-image: url(../imagenes/fondo_articulo.jpg);
+	background-repeat: repeat;
+	margin:5px;
+	border:3px solid;
+	border-color: darkblue;
+}
+
+main section article p{
+	background-color: blue;
+}
+
+/*FIN DEL CSS DEL SECTION CENTRAL*/
+
+/*FIN DEL CSS DEL MAIN*/
+
+/*CSS DEL FOOTER*/
+footer{
+	max-width: 100%;
+	min-width: 100%;
+	max-height:15%;
+	position: absolute;
+	bottom:0px;
+	margin-top:20px;
+	padding:5px;
+	background-image: url(../imagenes/fondo_pie.jpg);
+	background-repeat: repeat-x;
+}
+/*FIN DEL CSS DEL FOOTER*/

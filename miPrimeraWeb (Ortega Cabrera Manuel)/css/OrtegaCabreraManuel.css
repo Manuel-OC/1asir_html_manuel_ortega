@@ -1,0 +1,154 @@
+/*NEUTRALIDAD*/
+h2,h3,p,article,section{
+	margin: 0px;
+	padding:0px;
+}
+
+/*CSS DEL HEADER*/
+header{
+	max-width: 98%;
+	min-width: 98%;
+	max-height:20%;
+	min-height:20%;
+	position:absolute;
+	top:0;
+}
+#buscar{
+	position:absolute;
+	display:inline;
+	top:0px;
+	right:0px;
+	margin:25px;
+}
+header ul{
+	background-color:blue;
+	border-radius:4px;
+}
+header li{
+	display:inline;
+	margin:15px;
+}
+header ul li a{
+	color:white;
+}
+
+/*FIN DEL CSS DEL HEADER*/
+
+/*CSS DEL MAIN*/
+main * a{
+	display:block;
+	color:blue;
+}
+/*CSS DEL ASIDE IZQUIERDO*/
+main aside#izquierdo{
+	max-width: 17%;
+	min-width: 17%;
+	max-height:80%;
+	min-height:80%;
+	position:absolute;
+	top:15%;
+	left:.25%;
+	margin-left:0.5%;
+	color:blue;
+	overflow:scroll;
+}
+.fecha{
+	font-size: 0.8em;
+	color:#757575;
+}
+main section#izquierdosuperior{
+	background-color:#e3f2fd;
+	margin-top:5px;
+	margin-bottom:5px;
+	border:1px;
+	border-color:blue;
+	border-style:solid;
+}
+main section#izquierdoinferior{
+	background-color:#ffe0b2;
+	color:#f57c00;
+	margin-top:5px;
+	margin-bottom:5px;
+	border:2px;
+	border-color:orange;
+	border-style:dotted;
+}
+/*FIN DEL CSS DEL ASIDE IZQUIERDO*/
+
+/*CSS DEL SECTION CENTRAL*/
+main section#central{
+	max-width:60%;
+	min-width:60%;
+	min-height:70%;
+	max-height:70%;
+	position:absolute;
+	margin-top:5px;
+	top:15%;
+	left:19%;
+	margin-left:5px;
+	overflow:scroll;
+}
+main section#central figure{
+	float:left;
+	margin-right:5px;
+}
+main section#central details{
+	color:#f57c00;
+}
+main section#central h2{
+	color:#f57c00;
+}
+/*FIN DEL CSS DEL SECTION CENTRAL*/
+
+/*CSS DEL ASIDE DERECHO*/
+main aside#derecho{
+	max-width: 17%;
+	min-width: 17%;
+	max-height:70%;
+	min-height:70%;
+	position:absolute;
+	top:15%;
+	right:0;
+	margin-top:5px;
+	margin-right:1.5%;
+	background-color:white;
+	color:#f57c00;
+	overflow:scroll;
+	border:1px;
+	border-color: #f57c00;
+	border-style: solid;
+}
+main aside#derecho h3{
+	color:white;
+	background-color:#f57c00;
+}
+main aside#derecho details{
+	color:blue;
+}
+/*FIN DEL CSS DEL ASIDE DERECHO*/
+
+/*FIN DEL CSS DEL MAIN*/
+
+/*CSS DEL FOOTER*/
+footer{
+	max-width: 98%;
+	min-width: 98%;
+	max-height:5%;
+	min-height:5%;
+	position:absolute;
+	bottom:0;
+	border:1px;
+	border-color: #000000;
+	border-style: solid;
+	font-size:0.7em;
+}
+footer ul li{
+	display:inline;
+}
+footer li#copyright{
+	display:inline;
+	position:absolute;
+	right:10px;
+	bottom:12px;
+}
+/*FIN DEL CSS DEL FOOTER*/

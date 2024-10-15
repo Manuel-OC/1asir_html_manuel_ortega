@@ -1,0 +1,146 @@
+*{
+	padding:0;
+	margin:0;
+	font-family: "arial","serif","sans-serif";
+	font-size: large;
+	font-weight:lighter;
+}
+
+body{background-color: pink;}
+
+main{
+	position:absolute;
+	top:0;
+	left:100px;
+}
+
+header{
+	max-width: 90%;
+	min-width:90%;
+	max-height:25%;
+	min-height:25%;
+	margin:10px;
+}
+
+header h3{
+	position:relative;
+	top:15%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+main header nav ul{
+	background-color: white;
+	margin-top:10px;
+	max-height: 100px;
+	min-height: 100px;
+	border-radius: 10px;
+}
+
+main header nav ul li{
+	position:relative;
+	top:25px;
+	left:28%;
+	display:inline;
+	background-color: white;
+}
+
+main header nav ul li a{
+	color:blue;
+	font-size: xx-large;
+	margin:15px;
+}
+
+aside{
+	width:100px;
+	height:1650px;
+	background-image: url("../imagenes/fresa.png");
+	background-repeat: repeat-y;
+	display: inline-block;
+}
+
+main section{
+	max-width: 98%;
+	min-width: 98%;
+	max-height:70%;
+	min-height:70%;
+	margin:5px;
+}
+
+main section article{
+	background-color:lightpink;
+	margin-bottom:5px;
+	border:1px;
+	border-style:solid;
+	display:inline-block;
+	max-width: 90%;
+	min-width: 90%;
+	max-height:70%;
+	min-height:70%;
+	border:5px;
+	border-color:deeppink;
+	border-style:solid;
+	margin:1%;
+	margin-right: 5%;	
+}
+
+main section article h3{
+	margin:5px;	
+}
+
+.imagenIzquierda{
+	float:left;
+	margin-right: 10px;
+}
+.imagenDerecha{
+	float:right;
+	margin-left: 10px;
+}
+.boton{
+	position:relative;
+	top:90px;
+}
+
+p.titulo{
+	background-color:hotpink;
+	font-weight: bold;
+	font-size: x-large;
+	color: white;
+}
+
+.separador{
+	font-weight:bold;
+	color:deeppink;
+	text-align: center;
+	position:relative;
+	bottom: 20px;
+}
+
+.azul{color:blue;}
+.rojo{color:red;}
+
+b{font-weight: bold;}
+
+date{font-style:italic;}
+
+mark{
+	background-color: lightpink;
+	border:1px solid;
+	border-color: green;
+}
+
+footer{
+	max-width: 100%;
+	min-width: 100%;
+	max-height:15%;
+	min-height:15%;
+	position: absolute;
+	bottom:0px;
+	margin-top:20px;
+}
+footer p{
+	position:absolute;
+	bottom:0px;
+	right: 10%;
+	font-size: 0.7em;
+}

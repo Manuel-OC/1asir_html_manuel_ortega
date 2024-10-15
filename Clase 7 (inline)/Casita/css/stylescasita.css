@@ -1,0 +1,46 @@
+div#tejado{
+	background-color:red;
+	color:red;
+	width:600px;
+	height:100px;
+	border:1px solid #000000;
+}
+div#paredes{
+	background-color:gray;
+	color:gray;
+	position:relative;
+	left:50px;
+	width:500px;
+	height:500px;
+	border:1px solid #000000;
+}
+div#ventana1{
+	background-color:blue;
+	color:blue;
+	width:50px;
+	height:50px;
+	position:relative;
+	left:75px;
+	top:125px;
+	border:1px solid #000000;
+}
+div#ventana2{
+	background-color:blue;
+	color:blue;
+	width:50px;
+	height:50px;
+	position:absolute;
+	left:375px;
+	top:100px;
+	border:1px solid #000000;
+}
+div#puerta{
+	background-color:brown;
+	color:brown;
+	width:100px;
+	height:200px;
+	position:absolute;
+	left:200px;
+	top:300px;
+	border:1px solid #000000;
+}

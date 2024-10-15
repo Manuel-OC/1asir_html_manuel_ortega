@@ -1,0 +1,12 @@
+#cabecera{
+	background-color: orange;
+}
+
+#color_verde{
+	background-color: green;
+}
+
+table{
+	border:3px solid brown;
+	border-radius:15px;
+}

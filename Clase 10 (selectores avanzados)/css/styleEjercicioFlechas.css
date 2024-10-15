@@ -1,0 +1,17 @@
+.boton{
+	width: 200px;
+	height:30px;
+	background-color:green;
+}
+
+.boton:hover{
+	background-color:yellow;
+}
+
+#izq{
+	floar:left;
+}
+
+#dch{
+	float:right;
+}

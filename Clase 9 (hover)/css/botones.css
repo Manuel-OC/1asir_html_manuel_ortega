@@ -1,0 +1,21 @@
+#fondo{
+	background-color:darkred;
+	border: 3px solid black;
+	height:500px;
+	width:300px;
+}
+#boton{
+	background-color:darkred;
+	border: 3px solid black;
+	position:relative;
+	left:100px;
+	top:50px;
+	height:100px;
+	width:100px;
+}
+#boton:hover{
+	background-color:greenyellow;
+	border: 3px solid black;
+	height:100px;
+	width:100px;
+}

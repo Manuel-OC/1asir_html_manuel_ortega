@@ -1,0 +1,17 @@
+div#b1{
+	background-color:red;
+	width:30%;
+	color:white;
+}
+div#b2{
+	background-color:yellow;
+	width:30%;
+	position:relative;
+	left:20px;
+	top:10px;
+}
+div#b3{
+	background-color:purple;
+	width:30%;
+	color:white;
+}

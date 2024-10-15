@@ -1,0 +1,16 @@
+div#b1{
+	width:20%;
+	background-color:red;
+	color:white;
+	position:fixed;
+}
+div#b2{
+	width:20%;
+	height:2000px;
+	background-color:yellow;
+}
+div#b3{
+	width:20%;
+	background-color:purple;
+	color:white;
+}

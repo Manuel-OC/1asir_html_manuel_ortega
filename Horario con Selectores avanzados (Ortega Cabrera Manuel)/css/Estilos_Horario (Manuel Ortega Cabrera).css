@@ -1,0 +1,32 @@
+td:nth-child(odd){
+	color:red;
+}
+
+td:nth-child(2n){
+	color:purple;
+}
+
+td:hover{
+	color:white;
+	background-color: black;
+}
+
+td:first-child{
+	font-weight:bold;
+}
+
+td:last-child{
+	color:red;
+}
+
+tr[class~="dias"] td{
+	font-style:italic;
+}
+
+td:empty{
+	background:black;
+}
+
+td::first-letter{
+	font-weight:bold;
+}
